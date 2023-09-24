@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <title>STONE</title>
+</head>
+<body>
+
+    <!-- Store -->
+    
+
+    <button id="open">Shopping Cart</button>
+
+    <!-- shoppingcart -->
+    <div id="mainsc1">
+        <div id="mainsc2">
+            <div id="div1sc">
+                <h2>Shoppingcart</h2>
+                <ul id="lstProducts"></ul>
+            </div>
+            <div id="div2sc">
+                <a href="javascript:void(0)" id="close">×</a>
+                <h2>Checkout</h2>
+                <form id="formsc">
+                    <label for="mail">Mail adress:</label><br>
+                    <input type="email" id="mail" name="mail" class="inputform" required><br>
+
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" class="inputform" required><br>
+
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" class="inputform" required><br>
+
+                    <label for="card">Credit card number:</label><br>
+                    <input type="number" id="card" name="card" class="inputform" required><br>
+
+                    <label for="zcode">Zip code:</label><br>
+                    <input type="number" id="zcode" name="zcode" class="inputform" required><br>
+
+                    <label for="loc">Pickup location:</label><br>
+                    <input type="text" id="loc" name="loc" class="inputform" required><br>
+                    <hr>
+
+                    <div id="sum">
+                        <p>Sum:</p>
+                        <p id="summen">0</p>
+                        <p>$</p>
+                    </div>
+
+                    <input type="submit" value="Submit" id="submitco">
+                </form>
+            </div>
+
+        </div>
+
+        <div id="submitted">
+            <div class="subdiv">
+                <a href="javascript:void(0)" id="closesub">×</a>
+            </div>
+            <div class="subdiv">
+                <h2 id="thanku">Thank you for your purchase! :)</h2>
+            </div>
+
+        </div>
+    </div>
+    <!-- end shoppingcart -->
+
+    <h1 id="titleStore">Store</h1>
+    <main id="mainStore">
+        <div class="divStore">
+            <div class="div2Store">
+
+                <div class="div3Store">
+                    <img class="imgStore" src="images/store/penRecorder.png" alt="Image of pen">
+
+                </div>
+                <div class="div3Store">
+                    <p>Product: Pen-recorder</p>
+                    <p>Description: <br>This super stylish pen dobles as a recorder. Just hold down the button, and the pen will record the surrounding sounds. </p>
+                    <p>Price: 49$</p>
+                    <button id="pen">Buy</button>
+                    <hr>
+                </div>
+         
+            </div>
+            <div class="div2Store">
+
+                <div class="div3Store">
+                    <img class="imgStore" src="images/store/parfume.png" alt="Image of parfume">
+
+                </div>
+                <div class="div3Store">
+                    <p>Product: Toxic parfume</p>
+                    <p>Description: <br> This parfume may look innocent, but don't let it fool you. The bottle contains an anesthetic, which will have an immediate effect on the person who inhales it.</p>
+                    <p>Price: 1500$</p>
+                    <button id="parfume">Buy</button>
+                    <hr>
+                </div>
+         
+            </div>
+            <div class="div2Store">
+                <div class="div3Store">
+                    <img class="imgStore" src="images/store/spy_glasses.jpg" alt="Image of spy-glasses">
+
+                </div>
+                <div class="div3Store">
+                    <p>Product: Camera-glasses</p>
+                    <p>Description: These glasses have a hidden built-in camera, which you can use to film and take photos in secret.</p>
+                    <p>Price: 990$</p>
+                    <button id="glasses">Buy</button>
+                    <hr>
+                </div>
+         
+            </div>
+        </div>
+
+        <div class="divStore">
+            <div class="div2Store">
+
+                <div class="div3Store">
+                    <img class="imgStoreC" src="images/store/child_clothes2.png" alt="Image of child displaying clothes">
+
+                </div>
+                <div class="div3Store">
+                    <p>Product: Clothes (child)</p>
+                    <p>Description: <br> Set includes a coat, pants, hat, shoes and sunglasses. Clothes are fireproof and bulletproof.</p>
+                    <p class="disclaimer">Disclaimer: Set does not include a gun</p>
+                    <p>Price: 4900$</p>
+                    <button id="cClothes">Buy</button>
+                    <hr>
+               </div>
+         
+            </div>
+            <div class="div2Store">
+
+                <div class="div3Store">
+                    <img class="imgStoreC" src="images/store/m_clothes.png" alt="Image of man displaying clothes">
+
+                </div>
+                <div class="div3Store">
+                    <p>Product: Clothes (fitted for men)</p>
+                    <p>Description: <br> Set inludes a coat, suit trousers, shirt, tie, shoes, sunglasses and hat. Clothes are fireproof and bulletproof. </p>
+                    <p class="disclaimer">Disclaimer: Set does not include suitcase</p>
+                    <p>Price: 9990$</p>
+                    <button id="mClothes">Buy</button>
+                    <hr>
+                </div>
+         
+            </div>
+            <div class="div2Store">
+                <div class="div3Store">
+                    <img class="imgStoreC" src="images/store/w_clothes2.png" alt="Image of woman displaying clothes">
+
+                </div>
+                <div class="div3Store">
+                    <p>Product: Clothes (fitted for women)</p>
+                    <p>Description: <br> Set includes a suit jacket, suit trousers, shirt, tie, heels and sunglasses. Clothes are fireproof and bulletproof.</p>
+                    <p class="disclaimer">Disclaimer: Set does not include a gun</p>
+                    <p>Price: 9990$</p>
+                    <button id="wClothes">Buy</button>
+                    <hr>
+                </div>
+         
+            </div>
+        </div>
+
+       
+    </main>
+    <!-- end store -->
+    <script src="scripts/navbar-and-footer.js"></script>
+    <script src="scripts/add_to_shoppingcart.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+        <title>STONE</title>
+    </head>
+    <body id="nonScroll">
+        <div id="targetmapmain" > <!-- main webpage layout-->
+            <img id="targetmapbg" src="images/targets/testbakgrunn.png" alt="World map">
+        
+        <div> <!--images of main targets, with call for funciton when clicked-->
+            <img id="img_lenart" src="images/targets/targetlenart.png" alt="World map" onclick="lenartText()">
+            <img id="img_chomlis" src="images/targets/targetchomlis.png" alt="World map" onclick="chomlisText()">
+            <img id="img_james" src="images/targets/targetjames.png" alt="World map" onclick="jamesText()">
+            <img id="img_bengt" src="images/targets/targetbengt.png" alt="World map" onclick="bengtText()">
+            <img id="img_grizzly" src="images/targets/targetgrizzly.png" alt="World map" onclick="grizzlyText()">
+
+            </div>
+            <div id="target_lenart"> <!--hidden information box about target, when function is ran changes display to block-->
+                <img class="img_info" src="images/targets/targetlenart.png" alt="World map" onclick="lenartText()">
+                <p>Lenart</p>
+                <p class="target_txt"><b>Reason for surveillance: </b>Leader of classified transnational alcohol trafficking ring. 
+                <br><br>Last known location: 1929 Bar, Moscow 
+                <br><br>Danger level: &starf; &starf; &starf; &starf; &starf; </p>
+                <input type="button" class="button_remove" value="Return to map" onclick="remove_box()">   
+            </div>
+
+            <div id="target_chomlis"> <!--hidden information box about target, when function is ran changes display to block-->
+                <img class="img_info" src="images/targets/targetchomlis.png" alt="World map" onclick="lenartText()">
+                <p>Chomlis</p>
+                <p class="target_txt"><b>Reason for surveillance: </b>Major building damages due to flooding in nightclubs from Spain to Oslo.
+                <br><br>Last known location: Velice Discoteca
+                <br><br>Danger level: &starf; &starf; &starf; &star; &star; </p>
+                <input type="button" class="button_remove" value="Return to map" onclick="remove_box()">
+            </div>
+
+            <div id="target_james"> <!--hidden information box about target, when function is ran changes display to block-->
+                <img class="img_info" src="images/targets/targetjames.png" alt="World map" onclick="lenartText()">
+                <p>James</p>
+                <p class="target_txt"><b>Reason for surveillance: </b>Leader of T.H.I.E.F organization, ranked as one of the most dangerous groups to mankind.
+                <br><br>Last known location: O Block, Chicago
+                <br><br>Danger level: &starf; &star; &star; &star; &star; </p>
+                <input type="button" class="button_remove" value="Return to map" onclick="remove_box()">   
+            </div>
+
+            <div id="target_bengt"> <!--hidden information box about target, when function is ran changes display to block-->
+                <img class="img_info" src="images/targets/targetbengt.png" alt="World map" onclick="bengtText()">
+                <p>Bengt</p>
+                <p class="target_txt"><b>Reason for surveillance: </b> Academic weapon.
+                <br><br>Last known location: Campus 360
+                <br><br>Danger level: &starf; &starf; &star; &star; &star; </p>
+                <input type="button" class="button_remove" value="Return to map" onclick="remove_box()">   
+            </div>
+
+            <div id="target_grizzly"> <!--hidden information box about target, when function is ran changes display to block-->
+                <img class="img_info" src="images/targets/targetgrizzly.png" alt="World map" onclick="grizzlyText()">
+                <p>Kyriakos Grizzly</p>
+                <p class="target_txt"><b>Reason for surveillance: </b>Number 1. reason for increased rates of world hunger.
+                <br><br>Last known location: Mt. Everest
+                <br><br>Danger level: &starf; &starf; &starf; &starf; &star; </p>
+                <input type="button" class="button_remove" value="Return to map" onclick="remove_box()">   
+            </div>
+            <p id="footerblock"></p>
+        </div>
+        <script src="scripts/navbar-and-footer.js"></script>
+        <script src="scripts/target_reveal.js"></script>
+    </body>
+</html>
+            
